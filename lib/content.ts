@@ -43,7 +43,7 @@ export type TechSkill = {
 export const profile = {
   name: "Sasiru Hapuarachchi",
   monogram: "SH",
-  role: "Senior Full-Stack Engineer",
+  role: "Full-Stack Engineer",
   location: "Colombo, Sri Lanka",
   email: "sasiru.tharinda@gmail.com",
   english: "Professional Working Proficiency",
@@ -57,7 +57,7 @@ export const profile = {
 
 export const navLinks: NavLink[] = [
   { label: "About Me", href: "#about-me" },
-  { label: "Work", href: "#work" },
+  // { label: "Work", href: "#work" },
   // { label: "Remote", href: "#remote" },
   { label: "Connect", href: "#contact" }
 ];

@@ -21,7 +21,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: `${profile.name} — ${profile.role}`,
+  title: `Sasiru Tharinda | ${profile.role}`,
   description: profile.headline,
   openGraph: {
     title: `${profile.name} — ${profile.role}`,
