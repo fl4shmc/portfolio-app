@@ -54,7 +54,7 @@ export function RemoteReady() {
           className="mt-12 flex scroll-mt-16 flex-col items-start justify-between gap-6 rounded-xl border border-border bg-card p-8 sm:flex-row sm:items-center"
         >
           <div>
-            <p className="mt-2 text-white text-2xl">Say hello!</p>
+            <p className="mt-2 text-foreground text-2xl">Say hello!</p>
           </div>
           <div className="flex items-center gap-1">
             {socialLinks.map((link) => {
