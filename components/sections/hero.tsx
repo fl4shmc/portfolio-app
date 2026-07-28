@@ -10,7 +10,7 @@ export function Hero() {
       className="mx-auto w-full max-w-5xl px-6 pt-20 pb-24 sm:pt-28"
     >
       <div className="max-w-3xl">
-        <h1 className="font-heading text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-6xl lg:text-7xl">
+        <h1 className="font-heading text-4xl leading-[1.05] font-semibold tracking-tight whitespace-pre-line text-balance sm:text-6xl lg:text-7xl">
           {profile.headline}
         </h1>
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground text-balance sm:text-xl">
@@ -22,17 +22,17 @@ export function Hero() {
             className="h-11 px-5 text-base"
             render={<a href="#contact" />}
           >
-            Let&apos;s connect
+            Say hello!
             <ArrowUpRight />
           </Button>
-          <Button
+          {/* <Button
             size="lg"
             variant="outline"
             className="h-11 px-5 text-base"
             render={<a href="#work" />}
           >
             View selected work
-          </Button>
+          </Button> */}
         </div>
         <dl className="mt-16 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-border pt-10 sm:grid-cols-4">
           <div>

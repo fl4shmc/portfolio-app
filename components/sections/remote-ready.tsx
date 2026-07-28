@@ -14,11 +14,10 @@ export function RemoteReady() {
         <div className="max-w-2xl">
           <p className="eyebrow">Remote/On-site ready</p>
           <h2 className="mt-3 font-heading text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            Built to work autonomously, across time zones.
+          Seamless collaboration, anywhere.
           </h2>
           <p className="mt-4 text-muted-foreground text-balance">
-            Everything a distributed team needs to trust that I can own work end
-            to end — the stack, the language, and the logistics.
+          Thrives in distributed teams, combining independent ownership with clear, proactive communication.
           </p>
         </div>
 
@@ -55,7 +54,7 @@ export function RemoteReady() {
           className="mt-12 flex scroll-mt-16 flex-col items-start justify-between gap-6 rounded-xl border border-border bg-card p-8 sm:flex-row sm:items-center"
         >
           <div>
-            <p className="mt-2 text-white text-2xl">Let&apos;s connect!</p>
+            <p className="mt-2 text-white text-2xl">Say hello!</p>
           </div>
           <div className="flex items-center gap-1">
             {socialLinks.map((link) => {

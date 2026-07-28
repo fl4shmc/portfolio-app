@@ -49,9 +49,10 @@ export const profile = {
   english: "Professional Working Proficiency",
   // The Hook: an international value proposition, not a generic title.
   timezone: "UTC+5:30",
-  headline: "Hi, I build high-performance, globally scalable applications.",
+  headline:
+    "Hello, I'm Sasiru.\nI partner with teams worldwide to build high-performance, scalable applications.",
   subheadline:
-    "Currently helping data-first companies ship high quality applications from Sri Lanka"
+    "Helping ambitious teams transform complex data into reliable, scalable software"
 };
 
 export const navLinks: NavLink[] = [
@@ -164,23 +165,27 @@ export const caseStudies: CaseStudy[] = [
 ];
 
 export const techCloud = {
-  title: "The tools I reach for.",
-  description: "A working set built over years of shipping production software."
+  title: "Technologies I love working with.",
+  description: "A working set I use to bring great ideas to life."
 };
 
 export const techStack: TechSkill[] = [
   { name: ".NET", weight: 3 },
+  { name: "Redis", weight: 1 },
+  { name: "Microservices", weight: 3 },
   { name: "TypeScript", weight: 5 },
   { name: "ReactJS", weight: 4 },
-  { name: "NextJS", weight: 4 },
-  { name: "SQL Server", weight: 3 },
-  { name: "PostgreSQL", weight: 2 },
-  { name: "Redis", weight: 1 },
+  { name: "Continuous Integration", weight: 2 },
   { name: "Azure", weight: 3 },
+  { name: "Entity Framework", weight: 3 },
+  { name: "NextJS", weight: 4 },
   { name: "C#", weight: 3 },
-  { name: "Kubernetes", weight: 3 },
-  { name: "Tailwind CSS", weight: 2 },
-  { name: "Docker", weight: 2 }
+  { name: "SQL Server", weight: 5 },
+  { name: "PostgreSQL", weight: 4 },
+  { name: "Docker", weight: 2 },
+  { name: "Kubernetes", weight: 4 },
+  { name: "Continuous Deployment", weight: 2 },
+  { name: "ASP.NET MVC", weight: 3 },
 ];
 
 export const remotePillars: RemotePillar[] = [
